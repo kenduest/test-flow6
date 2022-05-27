@@ -463,5 +463,25 @@
                 "file": "/atomic/node_modules/node-red-node-tail/28-tail.js"
             }
         }
+    },
+    "node-red-contrib-mssql": {
+        "name": "node-red-contrib-mssql",
+        "version": "0.0.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mssql": {
+                "name": "mssql",
+                "types": [
+                    "MSSQL-CN",
+                    "MSSQL"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-mssql",
+                "file": "/data/atomic/node_modules/node-red-contrib-mssql/mssql.js"
+            }
+        }
     }
 }
