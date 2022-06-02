@@ -464,26 +464,6 @@
             }
         }
     },
-    "node-red-contrib-mssql": {
-        "name": "node-red-contrib-mssql",
-        "version": "0.0.7",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "mssql": {
-                "name": "mssql",
-                "types": [
-                    "MSSQL-CN",
-                    "MSSQL"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-mssql",
-                "file": "/data/atomic/node_modules/node-red-contrib-mssql/mssql.js"
-            }
-        }
-    },
     "node-red-contrib-sqlbuilder": {
         "name": "node-red-contrib-sqlbuilder",
         "version": "0.5.0",
@@ -560,6 +540,45 @@
                 "user": false,
                 "module": "node-red-contrib-queue-gate",
                 "file": "/data/atomic/node_modules/node-red-contrib-queue-gate/q-gate.js"
+            }
+        }
+    },
+    "node-red-contrib-cron-plus": {
+        "name": "node-red-contrib-cron-plus",
+        "version": "1.5.6",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "cronplus": {
+                "name": "cronplus",
+                "types": [
+                    "cronplus"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-cron-plus",
+                "file": "/data/atomic/node_modules/node-red-contrib-cron-plus/cronplus.js"
+            }
+        }
+    },
+    "node-red-contrib-mssql-plus": {
+        "name": "node-red-contrib-mssql-plus",
+        "version": "0.7.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mssql": {
+                "name": "mssql",
+                "types": [
+                    "MSSQL-CN",
+                    "MSSQL"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-mssql-plus",
+                "file": "/data/atomic/node_modules/node-red-contrib-mssql-plus/src/mssql.js"
             }
         }
     }
