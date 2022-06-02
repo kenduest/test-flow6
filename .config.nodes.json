@@ -543,5 +543,24 @@
                 "file": "/data/atomic/node_modules/node-red-contrib-loop-processing/while-loop.js"
             }
         }
+    },
+    "node-red-contrib-queue-gate": {
+        "name": "node-red-contrib-queue-gate",
+        "version": "1.5.5",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "q-gate": {
+                "name": "q-gate",
+                "types": [
+                    "q-gate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-queue-gate",
+                "file": "/data/atomic/node_modules/node-red-contrib-queue-gate/q-gate.js"
+            }
+        }
     }
 }
