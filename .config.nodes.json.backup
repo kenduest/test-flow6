@@ -561,5 +561,25 @@
                 "file": "/data/atomic/node_modules/node-red-contrib-cron-plus/cronplus.js"
             }
         }
+    },
+    "node-red-contrib-mssql-plus": {
+        "name": "node-red-contrib-mssql-plus",
+        "version": "0.7.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mssql": {
+                "name": "mssql",
+                "types": [
+                    "MSSQL-CN",
+                    "MSSQL"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-mssql-plus",
+                "file": "/data/atomic/node_modules/node-red-contrib-mssql-plus/src/mssql.js"
+            }
+        }
     }
 }
