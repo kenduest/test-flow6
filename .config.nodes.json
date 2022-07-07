@@ -592,5 +592,24 @@
                 "file": "/data/atomic/node_modules/node-red-contrib-loop/loop.js"
             }
         }
+    },
+    "node-red-contrib-sqlbuilder": {
+        "name": "node-red-contrib-sqlbuilder",
+        "version": "0.5.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "sql": {
+                "name": "sql",
+                "types": [
+                    "sqlbuilder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sqlbuilder",
+                "file": "/data/atomic/node_modules/node-red-contrib-sqlbuilder/sqlbuilder.js"
+            }
+        }
     }
 }
