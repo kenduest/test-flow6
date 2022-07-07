@@ -4,11 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "node-red-contrib-cron-plus": "~1.5.6",
-        "node-red-contrib-loop": "~1.0.1",
-        "node-red-contrib-loop-processing": "~0.5.1",
-        "node-red-contrib-mssql-plus": "~0.7.3",
-        "node-red-contrib-queue-gate": "~1.5.5",
-        "node-red-contrib-sqlbuilder": "~0.5.0"
+        "node-red-contrib-natsstreaming": "~0.3.4",
+        "node-red-contrib-queue-gate": "~1.5.5"
     }
 }
