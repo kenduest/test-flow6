@@ -447,8 +447,8 @@
     },
     "node-red-node-tail": {
         "name": "node-red-node-tail",
-        "version": "0.3.1",
-        "local": false,
+        "version": "0.3.2",
+        "local": true,
         "user": true,
         "nodes": {
             "tail": {
@@ -457,70 +457,10 @@
                     "tail"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "user": false,
                 "module": "node-red-node-tail",
-                "file": "/atomic/node_modules/node-red-node-tail/28-tail.js"
-            }
-        }
-    },
-    "node-red-contrib-sqlbuilder": {
-        "name": "node-red-contrib-sqlbuilder",
-        "version": "0.5.0",
-        "local": true,
-        "user": false,
-        "nodes": {
-            "sql": {
-                "name": "sql",
-                "types": [
-                    "sqlbuilder"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-sqlbuilder",
-                "file": "/data/atomic/node_modules/node-red-contrib-sqlbuilder/sqlbuilder.js"
-            }
-        }
-    },
-    "node-red-contrib-loop-processing": {
-        "name": "node-red-contrib-loop-processing",
-        "version": "0.5.1",
-        "local": true,
-        "user": false,
-        "nodes": {
-            "index-loop": {
-                "name": "index-loop",
-                "types": [
-                    "counter-loop"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-loop-processing",
-                "file": "/data/atomic/node_modules/node-red-contrib-loop-processing/counter-loop.js"
-            },
-            "array-loop": {
-                "name": "array-loop",
-                "types": [
-                    "array-loop"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-loop-processing",
-                "file": "/data/atomic/node_modules/node-red-contrib-loop-processing/array-loop.js"
-            },
-            "while-loop": {
-                "name": "while-loop",
-                "types": [
-                    "while-loop"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-loop-processing",
-                "file": "/data/atomic/node_modules/node-red-contrib-loop-processing/while-loop.js"
+                "file": "/data/atomic/node_modules/node-red-node-tail/28-tail.js"
             }
         }
     },
@@ -545,7 +485,7 @@
     },
     "node-red-contrib-cron-plus": {
         "name": "node-red-contrib-cron-plus",
-        "version": "1.5.6",
+        "version": "1.5.7",
         "local": true,
         "user": true,
         "nodes": {
@@ -562,11 +502,63 @@
             }
         }
     },
+    "node-red-contrib-natsstreaming": {
+        "name": "node-red-contrib-natsstreaming",
+        "version": "0.3.4",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "nats-streaming-publish": {
+                "name": "nats-streaming-publish",
+                "types": [
+                    "nats-streaming-publish"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-publish.js"
+            },
+            "nats-streaming-subscribe": {
+                "name": "nats-streaming-subscribe",
+                "types": [
+                    "nats-streaming-subscribe"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-subscribe.js"
+            },
+            "nats-streaming-server": {
+                "name": "nats-streaming-server",
+                "types": [
+                    "nats-streaming-server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-server.js"
+            },
+            "nats-streaming-acknowledge": {
+                "name": "nats-streaming-acknowledge",
+                "types": [
+                    "nats-streaming-acknowledge"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-acknowledge.js"
+            }
+        }
+    },
     "node-red-contrib-mssql-plus": {
         "name": "node-red-contrib-mssql-plus",
         "version": "0.7.3",
         "local": true,
-        "user": false,
+        "user": true,
         "nodes": {
             "mssql": {
                 "name": "mssql",
@@ -579,25 +571,6 @@
                 "user": false,
                 "module": "node-red-contrib-mssql-plus",
                 "file": "/data/atomic/node_modules/node-red-contrib-mssql-plus/src/mssql.js"
-            }
-        }
-    },
-    "node-red-contrib-loop": {
-        "name": "node-red-contrib-loop",
-        "version": "1.0.1",
-        "local": true,
-        "user": false,
-        "nodes": {
-            "loop": {
-                "name": "loop",
-                "types": [
-                    "loop"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-loop",
-                "file": "/data/atomic/node_modules/node-red-contrib-loop/loop.js"
             }
         }
     }
