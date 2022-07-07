@@ -449,7 +449,7 @@
         "name": "node-red-node-tail",
         "version": "0.3.1",
         "local": false,
-        "user": false,
+        "user": true,
         "nodes": {
             "tail": {
                 "name": "tail",
@@ -547,7 +547,7 @@
         "name": "node-red-contrib-cron-plus",
         "version": "1.5.6",
         "local": true,
-        "user": false,
+        "user": true,
         "nodes": {
             "cronplus": {
                 "name": "cronplus",
@@ -598,6 +598,58 @@
                 "user": false,
                 "module": "node-red-contrib-loop",
                 "file": "/data/atomic/node_modules/node-red-contrib-loop/loop.js"
+            }
+        }
+    },
+    "node-red-contrib-natsstreaming": {
+        "name": "node-red-contrib-natsstreaming",
+        "version": "0.3.4",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "nats-streaming-publish": {
+                "name": "nats-streaming-publish",
+                "types": [
+                    "nats-streaming-publish"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-publish.js"
+            },
+            "nats-streaming-subscribe": {
+                "name": "nats-streaming-subscribe",
+                "types": [
+                    "nats-streaming-subscribe"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-subscribe.js"
+            },
+            "nats-streaming-server": {
+                "name": "nats-streaming-server",
+                "types": [
+                    "nats-streaming-server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-server.js"
+            },
+            "nats-streaming-acknowledge": {
+                "name": "nats-streaming-acknowledge",
+                "types": [
+                    "nats-streaming-acknowledge"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-natsstreaming",
+                "file": "/data/atomic/node_modules/node-red-contrib-natsstreaming/nats-streaming-acknowledge.js"
             }
         }
     }

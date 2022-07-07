@@ -449,7 +449,7 @@
         "name": "node-red-node-tail",
         "version": "0.3.1",
         "local": false,
-        "user": false,
+        "user": true,
         "nodes": {
             "tail": {
                 "name": "tail",
@@ -468,7 +468,7 @@
         "name": "node-red-contrib-sqlbuilder",
         "version": "0.5.0",
         "local": true,
-        "user": true,
+        "user": false,
         "nodes": {
             "sql": {
                 "name": "sql",
@@ -487,7 +487,7 @@
         "name": "node-red-contrib-loop-processing",
         "version": "0.5.1",
         "local": true,
-        "user": true,
+        "user": false,
         "nodes": {
             "index-loop": {
                 "name": "index-loop",
@@ -566,7 +566,7 @@
         "name": "node-red-contrib-mssql-plus",
         "version": "0.7.3",
         "local": true,
-        "user": true,
+        "user": false,
         "nodes": {
             "mssql": {
                 "name": "mssql",
@@ -586,7 +586,7 @@
         "name": "node-red-contrib-loop",
         "version": "1.0.1",
         "local": true,
-        "user": true,
+        "user": false,
         "nodes": {
             "loop": {
                 "name": "loop",
