@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   '--cache',
+1 verbose cli   '/data/atomic/.npm',
+1 verbose cli   '--',
+1 verbose cli   '--userDir',
+1 verbose cli   '/data/atomic',
+1 verbose cli   '/data/atomic/flows.json'
+1 verbose cli ]
+2 info using npm@6.14.16
+3 info using node@v12.22.11
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle node-red@1.3.5~prestart: node-red@1.3.5
+6 info lifecycle node-red@1.3.5~start: node-red@1.3.5
+7 verbose lifecycle node-red@1.3.5~start: unsafe-perm in lifecycle true
+8 verbose lifecycle node-red@1.3.5~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/atomic/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+9 verbose lifecycle node-red@1.3.5~start: CWD: /atomic
+10 silly lifecycle node-red@1.3.5~start: Args: [
+10 silly lifecycle   '-c',
+10 silly lifecycle   'node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"'
+10 silly lifecycle ]
+11 silly lifecycle node-red@1.3.5~start: Returned: code: 134  signal: null
+12 info lifecycle node-red@1.3.5~start: Failed to exec start script
+13 verbose stack Error: node-red@1.3.5 start: `node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"`
+13 verbose stack Exit status 134
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:314:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:314:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1022:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+14 verbose pkgid node-red@1.3.5
+15 verbose cwd /atomic
+16 verbose Linux 5.4.0-1073-azure
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "start" "--cache" "/data/atomic/.npm" "--" "--userDir" "/data/atomic" "/data/atomic/flows.json"
+18 verbose node v12.22.11
+19 verbose npm  v6.14.16
+20 error code ELIFECYCLE
+21 error errno 134
+22 error node-red@1.3.5 start: `node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"`
+22 error Exit status 134
+23 error Failed at the node-red@1.3.5 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 134, true ]
