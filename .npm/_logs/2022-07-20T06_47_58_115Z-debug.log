@@ -22,10 +22,10 @@
 10 silly lifecycle   '-c',
 10 silly lifecycle   'node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"'
 10 silly lifecycle ]
-11 silly lifecycle node-red@1.3.5~start: Returned: code: 134  signal: null
+11 silly lifecycle node-red@1.3.5~start: Returned: code: 1  signal: null
 12 info lifecycle node-red@1.3.5~start: Failed to exec start script
 13 verbose stack Error: node-red@1.3.5 start: `node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"`
-13 verbose stack Exit status 134
+13 verbose stack Exit status 1
 13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
 13 verbose stack     at EventEmitter.emit (events.js:314:20)
 13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
@@ -39,9 +39,9 @@
 18 verbose node v12.22.11
 19 verbose npm  v6.14.16
 20 error code ELIFECYCLE
-21 error errno 134
+21 error errno 1
 22 error node-red@1.3.5 start: `node packages/node_modules/node-red/red.js "--userDir" "/data/atomic" "/data/atomic/flows.json"`
-22 error Exit status 134
+22 error Exit status 1
 23 error Failed at the node-red@1.3.5 start script.
 23 error This is probably not a problem with npm. There is likely additional logging output above.
-24 verbose exit [ 134, true ]
+24 verbose exit [ 1, true ]

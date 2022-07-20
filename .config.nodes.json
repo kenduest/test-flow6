@@ -635,5 +635,24 @@
                 "file": "/data/atomic/node_modules/node-red-contrib-redis/redis.js"
             }
         }
+    },
+    "node-red-node-redis": {
+        "name": "node-red-node-redis",
+        "version": "0.0.5",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "redis": {
+                "name": "redis",
+                "types": [
+                    "redis out"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-redis",
+                "file": "/data/atomic/node_modules/node-red-node-redis/65-redisout.js"
+            }
+        }
     }
 }
